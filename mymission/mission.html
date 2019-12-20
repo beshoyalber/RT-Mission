@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact form</title>
+  <style>
+  h1{
+     text-align: center;
+  	 font-family: system-ui;
+   	 font-weight: normal;
+     letter-spacing: 3.5px;
+   }
+  h4{
+     text-align: center;
+     font-family: sans-serif,system-ui; /* maybe wrong font family */
+     font-weight: normal;
+     color: darkgrey;
+     font-size:15px;
+     font-style: italic;
+   }
+   img{
+    width:15px;
+    height:15px;
+   }
+   div{
+   	display:inline-block;
+   	font-family: system-ui;
+   	padding: 5px 5px;
+   }
+   .right{
+   	 float: right;
+   }
+   .name{
+   	padding:4px 20.5px;
+   	font-family: system-ui;
+   }
+   .message{
+   	font-family: system-ui;
+   	padding:4px 128px;
+   }
+   button{
+   	float:right;
+   	font-size: 100%;
+   	color:white;
+   	background-color: black;
+   	border-width: 0px;
+   	padding: 10px 15px;
+   }
+  </style>
+</head>
+<body>
+	<h1>CONTACT</h1>
+	<h4>Fan? Drop a note!</h4>
+	<div id="icons">
+			<img src="images/location.png" alt="location icon"> <br> 
+			<img src="images/phone.png" alt="phone icon"> <br>
+			<img src="images/mail.png" alt="mail icon">
+	</div>
+	<div>
+        <span>Chicago, US</span> <br>
+		<span>Phone: +00 151515</span> <br>
+		<span>Email: mail@mail.com</span>
+	</div>
+	<div class="right">
+    	<form action="">
+    		<p>
+  			<input class="name" type="text" name="fullname" placeholder="Name">
+  			&nbsp; 
+  			<input class="name" type="email" name="email" placeholder="Email">
+  		    </p>
+  			<input class="message" type="text" name="message" placeholder="Message">
+        </form>
+	</div>
+	<br> <br> <br>
+		<button>SEND</button>
+</body>
+</html>
